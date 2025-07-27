@@ -169,7 +169,7 @@ body {
   background-color: #000000;
   padding: 15px 20px;
   border-bottom: 2px solid #DAA520;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: bold;
   display: flex;
   align-items: center;
@@ -206,7 +206,7 @@ body {
   padding: 8px 12px;
   border-radius: 5px;
   border: 1px solid #DAA520;
-  font-size: 12px;
+  font-size: 14px;
   white-space: nowrap;
   z-index: 1000;
   margin-top: 5px;
@@ -230,8 +230,8 @@ body {
   padding: 20px;
   overflow-y: auto;
   font-family: 'Courier New', monospace;
-  font-size: 14px;
-  line-height: 1.4;
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 .terminal::-webkit-scrollbar {
@@ -265,7 +265,7 @@ body {
 
 .terminal-line.ascii pre {
   color: #DAA520;
-  font-size: 10px;
+  font-size: 12px;
   line-height: 1.1;
   margin: 10px 0;
   text-shadow: 0 0 5px #DAA520;
@@ -338,7 +338,7 @@ body {
   border: none;
   color: #DAA520;
   font-family: 'Courier New', monospace;
-  font-size: 14px;
+  font-size: 16px;
   outline: none;
   flex: 1;
   margin-left: 5px;
@@ -360,7 +360,7 @@ body {
 .ascii-art {
   color: #DAA520;
   text-shadow: 0 0 5px #DAA520;
-  font-size: 12px;
+  font-size: 14px;
   margin: 10px 0;
 }
 
