@@ -282,7 +282,7 @@ Vidya Jyothi Institute of Technology, India`,
             </div>
             <div className="profile-card-content">
               <div className="profile-avatar-container">
-                <img src="/portfolio/SathJasti_Image.jpg" alt="Sath Jasti" className="profile-avatar" />
+                <img src="/terminalportfolio/SathJasti_Image.jpg" alt="Sath Jasti" className="profile-avatar" />
               </div>
             </div>
           </div>
