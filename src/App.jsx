@@ -20,7 +20,7 @@ function App() {
 
   const initialGreeting = [
     { type: 'ascii', content: asciiArt },
-    { type: 'info', content: 'Full-Stack Developer | Building AI-Powered Enterprise Solutions | Java • Spring • React • Machine Learning | 6+ Years' },
+    { type: 'info', content: 'Full-Stack Developer | Building AI-Powered Enterprise Solutions | Java • Spring • React • AWS • Database• AI/ML | 6+ Years' },
     { type: 'welcome', content: "" },
     { type: 'welcome', content: "Welcome to Sath Jasti's Portfolio Terminal" },
     { type: 'help', content: "Type 'help' to see available commands." }
