@@ -20,7 +20,7 @@ function App() {
 
   const initialGreeting = [
     { type: 'ascii', content: asciiArt },
-    { type: 'info', content: 'Software Developer | Building AI-Powered Enterprise Solutions | Java • Spring • React • AWS • Database• AI/ML | 2+ Years' },
+    { type: 'info', content: 'ML/AI Engineer | Full-Stack AI Developer | Cloud AI Practitioner | Python • LLMs • RAG • AWS • Spring Boot • React | 4+ Years' },
     { type: 'welcome', content: "" },
     { type: 'welcome', content: "Welcome to Sathvik Jasti's Portfolio Terminal" },
     { type: 'help', content: "Type 'help' to see available commands." }
@@ -47,52 +47,108 @@ contact or c            - How to reach me
 clear                   - Clear the terminal`,
     about: () => `👋 About Me
 
-I'm a Software Developer with experience building production ready systems that blend AI, data, and full stack engineering to solve real business problems. At Orbit Analytics, I engineer Java Spring Boot REST APIs, integrate Hugging Face LLMs for data summarization and natural language querying, and deploy models on AWS SageMaker and Docker to improve performance, reliability, and delivery speed.
+Innovative AI/ML Professional with progressive experience spanning machine learning, full-stack development, and cloud native AI systems. Skilled in architecting end to end ML pipelines across model integration, backend infrastructure, and cloud deployment in AWS, Azure, and GCP ecosystems. Proven expertise in LLM integration, Retrieval Augmented Generation (RAG), intelligent automation, and scalable API design using Python, Java (Spring Boot), and Node.js. Experienced in applying predictive analytics, customer segmentation, NLP, and data driven automation to solve business problems in insurance, FinTech, and enterprise domains.
 
-Previously, as a Research Assistant at Florida Institute of Technology, I built full stack applications with React and Node.js, incorporating RAG based LLM features to make complex NASA standards interactive and searchable, while automating deployments on Google Cloud Run.
+What drives me as an engineer is the challenge of turning complex data into systems that deliver real, measurable impact. Whether I'm building a RAG powered document intelligence platform, designing ML serving backend infrastructure, or deploying an AI chatbot that saves hours of manual work, my focus is always the same: build reliable, scalable systems that organizations can grow with and that continue to advance long after deployment.
 
-I've also shipped freelance solutions, including a full stack dance studio management platform with React, TypeScript, Node.js, PostgreSQL, and third party integrations (Square, Twilio, Resend), as well as data automation pipelines that eliminate hours of manual work and improve data quality for solar energy forecasting.
+📍 Harrison, NJ | Open to Relocate
+📧 sathvikjasti27@gmail.com | 📞 +1 (470) 871-5249
 
-My core toolkit includes Java, Python, JavaScript/TypeScript, React, Node.js, PostgreSQL, AWS, GCP, and Docker, and I enjoy collaborating in Agile teams to design scalable architectures, optimize data workflows, and deliver clear, measurable impact.
-
-📊 2+ Years Experience | 1+ Years of AI/ML | 15+ Technologies Mastered`,
+📊 4+ Years Experience | ML/AI Engineer | Full-Stack AI Developer | Cloud AI Practitioner`,
     experience: () => `💼 Work Experience:
 
-Full-Stack Developer | Orbit Analytics, Atlanta, GA
-May 2024 - Present
+AI/ML Platform Engineer | Reliance Surfaces | USA
+Feb 2026 – Present | Domain: Manufacturing | Cloud: AWS
 
-• Developed backend services for analytics platform using Java 8-17, Spring Boot, and Hibernate, implementing Kafka messaging for event-driven architecture while optimizing Oracle database queries and Redis caching to improve API response times and reduce system latency.
-• Built RESTful APIs and responsive web components using Spring MVC and React.js, working with stakeholders to translate functional requirements into technical implementations for financial reporting features.
-• Assisted in integrating Hugging Face LLM models via API endpoints in Spring Boot to enable natural language summarization of financial reports, collaborating with the team to fine-tune prompts for accurate insights from structured data.
-• Supported production environment by troubleshooting database issues, refactoring Oracle PL/SQL stored procedures, and implementing performance improvements to reduce recurring errors and system bottlenecks.
-• Collaborated with senior developers to integrate third-party APIs into existing J2EE application, implementing error handling and retry logic while containerizing services with Docker for AWS EC2 deployment.
-• Contributed to establishing automated testing framework using JUnit and Mockito, writing unit and integration tests to improve code quality and streamline CI/CD pipeline with Jenkins.
+• LLM Integration: Architected AI integrated platform features incorporating LLM API endpoints and intelligent content generation pipelines using OpenAI APIs, enabling automated surface material recommendations that reduced manual product consultation time.
+• ML Backend: Designed ML informed backend services using Python and Node.js, processing structured and unstructured product catalog data to power predictive analytics dashboards delivering real time business insights.
+• Data Pipelines: Built automated data ingestion workflows leveraging AWS Lambda and S3, enabling real time feature extraction from product catalogs for downstream ML model consumption.
+• Semantic Search: Implemented intelligent product search modules using vector similarity matching with Pinecone, improving customer product discovery accuracy by ~25%.
+Tech Stack: Python, Node.js, OpenAI APIs, LangChain, Pinecone, AWS (Lambda, S3, EC2), React.js, PostgreSQL, Docker, Git
 
 --------------
 
-Research Assistant | Florida Institute of Technology, Melbourne, FL
-Aug 2023 - May 2024
+AI Backend Engineer | Antra, Inc. | Sterling, VA, USA
+Jul 2025 – Feb 2026 | Domain: Enterprise Software & AI | Cloud: AWS
 
-• Designed and built full-stack web application using React.js, Node.js, and Google Cloud SQL backend, implementing RESTful APIs to serve research content to faculty and students.
-• Built full stack applications with React and Node.js, incorporating RAG based LLM features to make complex NASA standards interactive and searchable.
-• Containerized backend services with Docker and deployed on Google Cloud Run, setting up CI/CD pipeline with Cloud Build to enable faster and more reliable deployments.
-• Integrated Dialogflow CX chatbot with a RAG pipeline to allow authorized users to query confidential research documents, using vector embeddings for secure retrieval and role-based access control.
-• Implemented authentication system with JWT tokens and role-based access control, ensuring secure access to research data and meeting university security standards.`,
+• ML Serving Infra: Engineered scalable backend infrastructure using Java (Spring Boot) and Python to support real time model inference endpoints, serving enterprise AI features across multiple microservices.
+• Feature Store: Designed and optimized PostgreSQL/MySQL schemas structured as ML feature stores, enabling efficient data retrieval for model training pipelines and reducing query latency by 30%.
+• Caching Layer: Implemented Redis based caching for model prediction results and high frequency reads, improving response times by 30% and supporting 99.9% uptime SLA.
+• API Architecture: Architected secure RESTful APIs for data exchange between ML microservices and external vendor platforms, ensuring reliable integration with production AI workflows.
+• Cloud Ops: Managed AWS (EC2, S3) deployment and monitoring with automated health checks and scaling policies for AI serving workloads.
+Tech Stack: Java, Spring Boot, Python, PostgreSQL, MySQL, Redis, AWS (EC2, S3), React.js, Docker, Git, CI/CD
+
+--------------
+
+ML Research Assistant | Florida Institute of Technology | Melbourne, FL, USA
+Aug 2023 – May 2025 | Domain: Academic Research | Cloud: AWS
+
+• AI Chatbot: Developed and deployed a custom AI chatbot using Node.js and OpenAI LLM APIs, integrating NLU with automated calendar scheduling based on real time availability, saving the lead professor 5+ hours/week of manual coordination.
+• Research Platform: Served as lead developer building a centralized platform managing high impact publications, faculty projects, and digital asset libraries with optimized content retrieval.
+• CMS & Performance: Built a custom CMS module with advanced image compression and lazy loading, reducing page load times by 40% for large scale research image portfolios.
+• Technical Leadership: Acted as sole technical point of contact, translating academic requirements into production features and delivering comprehensive system documentation for future scalability.
+Tech Stack: Node.js, OpenAI APIs, React.js, JavaScript, Python, AWS (S3), MongoDB, Git
+
+--------------
+
+ML Engineer | Orbit Analytics | India
+Apr 2022 – Jun 2023 | Domain: Insurance & Risk Analytics | Cloud: GCP, AWS
+
+• Risk Analytics: Developed fraud detection and claims risk assessment models using Scikit-learn, CatBoost, and LightGBM, improving claims adjudication accuracy and supporting data driven underwriting decisions.
+• Customer Segmentation: Performed behavioral clustering and customer profiling using K-Means and hierarchical clustering, enabling personalized insurance offerings and contributing to improved customer retention.
+• Forecasting: Built claims volume and premium forecasting models using Prophet and SARIMA, enabling actuarial teams to enhance reserve planning and improve loss ratio projections.
+• Data Engineering: Designed ETL pipelines using GCP Dataflow, BigQuery, and Cloud Storage, ensuring reliable ingestion and transformation of structured and semi structured insurance datasets.
+• Visualization & BI: Created executive dashboards in Tableau, Power BI, and Plotly, delivering real time insights on claims trends, risk metrics, and customer segments for actuaries and underwriters.
+• Governance: Applied data validation and PII redaction techniques to safeguard sensitive customer information and ensure compliance with insurance regulatory standards.
+Tech Stack: Python, R, Scikit-learn, CatBoost, LightGBM, Prophet, SARIMA, SQL, MongoDB, Snowflake, Tableau, Power BI, Plotly, GCP (BigQuery, Dataflow, Cloud Storage)`,
     skills: () => `💻 Technical Skills:
 
-Languages & Frameworks: Java (8-17), J2EE (Servlets, JSP, JDBC), Spring Framework, Spring Boot, Spring MVC, Spring Data JPA, Spring Security, Apache Kafka, Hibernate ORM, Python, JavaScript (ES6+), TypeScript, React.js, Node.js/Express, Redux, Vite
+Programming Languages:
+  Python, Java, JavaScript, TypeScript, SQL
 
-Database Technologies: Oracle Database, Oracle SQL (Stored Procedures, Packages, Functions), MySQL, PostgreSQL, MongoDB, Redis, AWS DynamoDB, Google Cloud SQL, Supabase, Vector Database
+Python Libraries:
+  NumPy, Pandas, Scikit-learn, PyTorch, TensorFlow
 
-Web Technologies: RESTful APIs, Microservices Architecture, Responsive Web Design, HTML5, CSS3, JSON, XML
+AI/ML Libraries:
+  Scikit-learn, XGBoost, LightGBM, PyTorch, TensorFlow, CatBoost
 
-Cloud & DevOps: AWS (EC2, S3, RDS, Lambda), Google Cloud Platform, Cloud Run, Cloud Functions, Pub/Sub, Cloud Build, Docker, Jenkins, CI/CD Pipelines, Terraform, Git/GitHub, Maven, Railway
+ML Techniques:
+  Predictive Modeling, Segmentation Modeling, Classification, Clustering, Feature Engineering
 
-AI/ML: Hugging Face Transformers, RAG Pipelines, TF-IDF, BERT, Scikit-learn, Embeddings (Sentence Transformers), XG Boost, Random Forest
+NLP / LLMs:
+  OpenAI APIs (GPT), Hugging Face Transformers, LangChain, RAG, BERT, Pinecone, Milvus, Faiss, Chroma
 
-Development Practices: SDLC (Agile/Scrum), Requirements Analysis, Software Design, Test-Driven Development (JUnit, Mockito), Production Support, Performance Optimization, Stakeholder Management, Client Interfacing
+Prompt Engineering:
+  Chain-of-Thought, Few-shot Prompting, Prompt Guardrails
 
-Tools: JIRA, Postman, Swagger/OpenAPI, IntelliJ IDEA, Eclipse, SQL Developer, Dialogflow CX, Firebase, Hugging Face Hub, Square API, Resend, Twilio`,
+Time-Series:
+  Prophet, SARIMA, ARIMA
+
+Testing / Explainability:
+  SHAP, LIME, AUC-ROC, RAGAS Metrics, Unit Testing, CI/CD (GitHub Actions)
+
+MLOps & Automation:
+  MLflow, Docker, FastAPI, Apache Airflow, CI/CD Pipelines
+
+Cloud Platforms:
+  AWS (EC2, S3, Lambda, SageMaker, Glue)
+  Azure (App Service, SQL DB, Functions)
+  GCP (BigQuery, Dataflow, Cloud Storage)
+
+Databases:
+  PostgreSQL, MySQL, MongoDB, Redis, Snowflake, Azure SQL Database
+
+Vector Databases:
+  Pinecone, Milvus, Faiss, Chroma
+
+Visualization:
+  Matplotlib, Seaborn, Plotly, Power BI, Tableau
+
+Web Development:
+  React.js, Node.js, Spring Boot, FastAPI, Flask, RESTful APIs, Microservices
+
+Version Control:
+  Git, GitHub, Bitbucket`,
     projects: () => {
       return (
         <div>
